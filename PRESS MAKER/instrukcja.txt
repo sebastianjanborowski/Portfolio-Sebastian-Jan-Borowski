@@ -1,0 +1,1 @@
+Źeby zobaczyć działanie należy zaimportować baze danych do localhost na przykład pakiet xampp.

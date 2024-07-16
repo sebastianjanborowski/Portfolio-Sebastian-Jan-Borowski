@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.header
+{
+    background-color: #8cc63f;
+    height: 98px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 77px;
+    margin-bottom: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sign_in
+{
+    
+    width: 521px;
+    border:solid 2px #8cc63f ;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+form
+{
+   width: 100%;
+   
+}
+
+input[type='text']
+{
+    width: 428px;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 20px;
+    border: 1px solid #8cc63f;
+    border-radius: 14px;
+}
+input[type='password']
+{
+    width: 428px;
+    border-radius: 5px;
+    height: 38px;
+    font-size: 20px;
+    border: 1px solid #8cc63f;
+    border-radius: 14px;
+}
+.word
+{
+   
+    margin-bottom:1px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1
+{
+    font-weight: 100;
+}
+h2
+{
+    font-size: 70px;
+    margin: 0px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type='submit']
+{
+    width: 149px;
+    border-radius: 14px;
+    height: 58px;
+    margin-left: 35%;
+    font-size: 26px;
+    background-color: #8cc63f;
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.right
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 8%;
+    font-size: 18px;
+}
+
+input[type='submit']:hover
+{
+    cursor: pointer;
+    background-color: #7bb54e;
+}
+h4
+{
+    margin-top: -100px;
+
+}
+
+.word1
+{
+   
+    margin-bottom:1px;
+    font-size: 30px;
+    text-align: center;
+   
+   
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.editor
+{
+    font-weight: 200;
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.acount
+{
+    text-align: center;
+    margin-right: 2%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+a
+{
+    color: #8cc63f;
+    font-size: 16px;
+   
+}
+a:hover
+{
+    color: #7bb54e;
+    cursor: pointer;
+}

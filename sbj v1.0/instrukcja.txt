@@ -1,0 +1,1 @@
+Należy podać ciąg znaków "np abc, albo hasła co kolwiek " i w rezultacie końcowym ukaże się hash z podanego ciągu znaków  

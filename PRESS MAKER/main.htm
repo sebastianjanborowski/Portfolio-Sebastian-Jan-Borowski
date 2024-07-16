@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Przeciąganie klocka</title>
+<link rel="stylesheet" href="css/style.css"/>
+<style>
+    .mesh {
+    display: grid;
+    grid-template-columns: repeat(5, 110px); /* 5 kolumn o szerokości 35mm */
+    grid-auto-rows: 67px; /* Wysokość wierszy ustawiona na 21mm */
+    max-width: 200mm; /* Maksymalna szerokość siatki */
+    margin: 40px auto 0; /* Automatyczne centrowanie siatki */
+    padding-left: 100px;
+    position: relative; /* Zmiana na względną */
+    z-index: -1000;
+}
+
+.main {
+    
+    float: left;
+    border: solid 1px black;
+    box-sizing: border-box; 
+   
+}
+
+</style>
+</head>
+<body>
+<div id="container">
+    <div class="left">  
+        <button id="generateInputsButton">Generuj pola</button>
+        <div id="inputs"></div>
+        <div id="generatedBlock"></div>
+        </div>
+    
+    
+    
+    <div class="main">
+        <div class="mesh">
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+        <div class="main"></div>
+    
+        
+    </div>
+        </div>
+    
+    <div class="right">
+        
+        </div>
+    
+</div>
+
+
+
+
+<script src="js/script_generowanie_bloku.js"></script>
+<script src="js/przesówanie_elementów.js"></script>
+
+</body>
+</html>

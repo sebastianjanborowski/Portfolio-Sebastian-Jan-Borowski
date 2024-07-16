@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    
+}
+.left
+{
+    float: left;
+    width: 500px;
+}
+.klocek
+{
+    z-index: 1000;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.x
+{
+    margin-left: 100px;
+}
+
+.right
+{
+    float: left;
+    background-color: red;
+    width: 200px;
+}
+input [type='text']
+{
+    width: 50%;
+}
+
+#generatedBlock {
+  
+    border: 1px solid black;
+    
+    background-color: red;
+}
+
+
+.description-input {
+    margin-top: 10px;
+}
