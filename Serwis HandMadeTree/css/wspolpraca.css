@@ -1,0 +1,90 @@
+.xd {
+    font-size: 2.5vh;
+}
+
+.photo {
+    width: 60%;
+    margin-left: 19%;
+    border-radius: 20px;
+    margin-top: -5%;
+    margin-bottom: 3%;
+}
+.wa
+{
+    display: none;
+}
+.photo2 {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -5%;
+}
+
+
+.photo4 {
+    border-radius: 20px;
+}
+
+.photo5 {
+    width: 72%;
+    margin-top: 5%;
+}
+
+.koniec {
+    text-align: center;
+}
+
+.kontakt {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 2%;
+    font-size: 5vh;
+    color: rgb(63, 139, 4);
+}
+
+.kontakt a {
+    color: rgb(63, 139, 4);
+}
+
+.kontakt:hover {
+    color: rgb(83, 159, 24);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.rotated-letter {
+    display: inline-block;
+    transform: rotate(-180deg);
+}
+
+/* Dodatkowe style dla obrazków w wersji mobilnej */
+
+/* Zachowanie oryginalnych stylów dla szerokości do 991.98px */
+@media (max-width: 991.98px) {
+    .photo {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 19%;
+        
+    }
+    .gallery2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 4%;
+        grid-gap: 2%;
+       
+        border-radius: 5px;
+        width: 100%;
+    }
+    .gallery2 img {
+        width: 100%;
+    }
+    
+    .wa
+    {
+        display: block;
+    }
+    .waa
+    {
+        display: none;
+    }
+}

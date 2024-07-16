@@ -1,0 +1,88 @@
+body
+{
+    text-align:left;
+}
+.czas
+{
+    text-align: center;
+}
+p
+{
+    text-align: left;
+}
+.table
+{
+   
+    
+    text-align: center;
+    box-sizing: border-box;
+}
+.od
+{
+    margin-top: 10%;
+}
+.komurka
+{
+    width: 33%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.czarny
+{
+    
+    background-color: #cea400;
+    color: rgb(255, 255, 255);
+    width: auto;
+}
+.bialy
+{
+    background-color: rgb(228, 228, 228);
+    color: #000;
+}
+.odd
+{
+    border-bottom: solid rgb(240, 240, 240) 1px;
+}
+.margines
+{
+    margin-left: 2%;
+}
+.margines2
+{
+    margin-right: 2%;
+}
+.flo
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.left
+{
+    float: left;
+    width: 33%;
+}
+.koniec
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+
+
+@media (max-width: 991.98px) 
+{
+    .left
+    { 
+        width: 100%;
+        clear: both;
+        letter-spacing: 2px;
+    }
+    .od
+    {
+        margin-top: 20%;
+    }
+}

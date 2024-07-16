@@ -1,0 +1,252 @@
+html, body {
+    overflow-x: hidden !important;
+}
+
+.p
+{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.pb
+{
+    font-size: 20px;
+    margin-right: 25px;
+}
+.galeria
+{
+   margin-left: 2%;
+}
+.galeria2
+{
+    position: relative;
+    right:94%;
+    width: 95%;
+   
+}
+.drewno2
+{
+    position: relative;
+    right: 80px;
+}
+.odstep
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.odstep2
+{
+    margin-top: 43px;
+    
+}
+.pomiedzy
+{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.w
+{
+margin: 10px;
+}
+.kreska4
+{
+    margin-top: 25px;
+}
+.xd
+{
+    margin-top: 0px;
+}
+.iframe-container 
+    {
+      width: 100%; /* Ustaw szerokość iframe na 60% */
+     
+    }
+    
+    .round
+    {
+        border-radius: 20px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .r
+    {
+        border-radius: 20px;
+    }
+    .round:hover
+    {
+        transform: scale(1.05); 
+        transform-origin: 50% 50%;
+    }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2%;
+    grid-gap: 10px;
+    margin-right: 4%;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+  }
+  .gallery img:hover
+  {
+    transform: scale(1.05); 
+  }
+  .modal-dialog {
+    max-width: 100%;
+    
+    margin: 0 auto;
+  }
+  .modal-content {
+    background-color: transparent;
+    overflow: auto;
+    position: absolute;
+    
+  }
+  
+  
+  .modal-body img {
+    max-height: 95.7vh;
+    min-width: 100%;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    z-index: 1;
+    position: relative;
+    
+    margin-top: 4%;
+    
+  }
+  .bles
+  {
+    margin-left: 12%;
+  }
+  .bles2
+  {
+    margin-left: -26%;
+  }
+  .nav-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    z-index: 1051; /* Above modal overlay */
+  }
+  #prev { left: 1%; background-color: transparent;}
+  #next { right: 1%;background-color: transparent; }
+
+  
+  #close-btn {
+   position: absolute;
+   
+    top: 10%;
+    right: 3%;
+   
+    font-size: 4.5em;
+    color: rgb(0, 0, 0);
+   
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 100;
+  }
+
+  .malo
+{
+    line-height: 25px;
+}
+.malo2
+{
+   margin-top: -30px;
+}
+.tymczasem
+{
+    margin-top: 60px;
+}
+.tymczasem2
+{
+    margin-top: -130px;
+}
+.tymczasem3
+{
+    margin-top: -15px;
+}
+.miara
+{
+  margin-right: 10%;
+}
+
+@media (min-width: 990px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin-top: 40px;
+        grid-gap: 10px;
+    }
+}
+
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 100%;
+    }
+
+  }
+    
+@media (max-width: 991.98px) 
+{
+  .gallery img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 4%;
+    grid-gap: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+  }
+    .m
+    {
+        margin-top: 30%;
+    }
+    .col-lg-3 {
+        display: none;
+    }
+    .galeria
+    {   
+        width: 100%;
+        
+    }
+    .abc
+    {
+      margin-top: 55%;
+    }
+    #close-btn {
+        position: absolute;
+        top: 3%;
+        z-index: 10000;
+        right: 4%;
+     }
+    
+    .ie
+    {
+    position: absolute;
+    left: -10px;
+    }
+    .bles
+    {
+      margin-left: 0%;
+    }
+
+}
+
+
+
+
+
+
+
+
