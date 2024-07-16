@@ -1,0 +1,69 @@
+/OutOfOffice 
+|__ calculations
+│    ├── add.php
+│    ├── addApprover_Request.php
+│    ├── addLeaveRequest.php
+│    ├── addProject.php
+│    ├── delete.php
+│    ├── deleteApprover_Request.php
+│    ├── deleteLeaveRequest.php
+│    ├── deleteProject.php
+│    ├── deleteProject.php
+│    ├── form.php
+│    ├── update.php
+│    ├── updateApprover_Request.php
+│    ├── updateLeaveRequest.php
+│    ├── updateProject.php
+├── config
+│    └── db.php
+├── css
+│    ├── style.css
+├── js
+│    ├── addApprover_Request.js
+│    ├── addApprover_Request.ts
+│    ├── addLeaveRequest.js
+│    ├── addLeaveRequest.ts
+│    ├── addUser.js
+│    ├── addUser.ts
+│    ├── deleteApprover_Request.js
+│    ├── deleteApprover_Request.ts
+│    ├── deleteLeaveRequest.js
+│    ├── deleteLeaveRequest.ts
+│    ├── deleteProject.js
+│    ├── deleteProject.ts
+│    ├── deleteUserr.js
+│    ├── deleteUserr.ts
+│    ├── form.js
+│    ├── form.ts
+│    ├── navigation.js
+│    ├── project.js
+│    ├── project.ts
+│    ├── updateApprover_Request.js
+│    ├── updateApprover_Request.ts
+│    ├── updateLeaveRequest.js
+│    ├── updateLeaveRequest.ts
+│    ├── updateProject.js
+│    ├── updateProject.js
+│    ├── updateUserr.js
+│    ├── updateUserr.ts
+├── public
+│    ├── index.php
+│    ├── menu.php
+├── templates
+│    ├── add.php
+│    ├── addApprover_Request.php
+│    ├── addLeaveRequest.php
+│    └── delete.php
+│    ├── deleteApprover_Request.php
+│    ├── deleteLeaveRequest.php
+│    ├── deleteProject.php
+│    └── projects.php
+│    ├── show.php
+│    ├── showApprover_Request.php
+│    ├── showLeaveRequest.php
+│    └── showProject.php
+│    ├── update.php
+│    ├── updateApprover_Request.php
+│    ├── updateLeaveRequest.php
+│    └── updateProject.php
+└── tsconfig.json
