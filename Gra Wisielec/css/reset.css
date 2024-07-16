@@ -1,0 +1,15 @@
+.i {
+    display: block;
+}
+
+.invis1,
+.invis2,
+.invis3,
+.invis4,
+.invis5,
+.invis6,
+.invis7,
+.invis8,
+.invis9 {
+    display: none;
+}

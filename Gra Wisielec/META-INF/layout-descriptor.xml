@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cms:layout xmlns:cms="http://www.gdp.pl/cms/Layout"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.gdp.pl/cms/Layout layout-schema.xsd ">
+	<header>
+		<name>Prezent dla nikity</name>
+		<version>1.02</version>
+		<create-date>05-07-2024</create-date>
+		<home-page></home-page>
+		<desc></desc>
+		<author>Sebastian Jan Borowski</author>
+		<author-email>vcad.s@wp.pl</author-email>
+		<author-www></author-www>
+	</header>
+	<content>
+		<layout-file>layout.jsp</layout-file>
+	
+		<css>
+		<file>reset.css</file>
+		<file>style.css</file>
+			
+		</css>
+		<img>					
+			<file>dota.png</file>
+			<file>s0.png</file>
+			<file>s1.png</file>
+			<file>s2.png</file>
+			<file>s3.png</file>
+			<file>s4.png</file>
+			<file>s5.png</file>
+			<file>s6.png</file>
+			<file>s7.png</file>
+			<file>s8.png</file>
+			<file>s9.png</file>
+			</img>	
+		<js>
+			<file>form.js</file>
+			<file>szubienica.js</file>
+			<file>lose.mp3</file>
+			<file>win.mp3</file>
+			<file>no.wav</file>
+			<file>yes.wav</file>
+		</js>
+	</content>
+</cms:layout>
