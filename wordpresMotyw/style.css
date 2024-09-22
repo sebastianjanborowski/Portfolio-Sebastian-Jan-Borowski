@@ -1,0 +1,1743 @@
+/*
+    Theme Name: Sebastian Jan Borowski zadanie rekrutacyjne
+    Theme URI: 
+    Author: Sebastian Jan Borowski
+    Author URI: 
+    Description: Zadanie rekrutacyjne
+    Tags:
+    Version: 1.0.0
+    Requires at least: 5.0
+    Tested up to: 5.0
+    License: GNU
+    License URI: google.com
+    Text Domain: wordpressTutorial
+    Domaint Path: /languages
+*/
+
+/* Zwiększ specyfikę selektora */
+/* Wyższa specyfikacja selektora */
+body
+{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.kontaktPoziom
+{
+    font-weight: 800;
+    display: block;
+    position: relative;
+    margin-top: -1.1%;
+}
+.kontaktPoziom:hover
+{
+    color: #3a3a3a;
+}
+.navbar-nav .nav-link 
+{
+    color: #3a3a3a;
+}
+nav.navbar{
+    font-size: 16px;
+    font-weight: 500;
+}
+#navbarNav
+{
+   margin-left: 17%;
+}
+.navbar-brand
+{
+    margin-left: 5%;
+}
+.navbar-light
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 0: horizontal offset, 4px: vertical offset, 8px: blur radius, rgba(0, 0, 0, 0.2): kolor */
+
+}
+.bootom
+{
+    border-radius: 0 0 15px 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+    width: 100%;
+    padding-top: 2%;
+}
+.c
+{
+    background-color:#3a3a3a;
+    height: 3vh;
+    position:fixed;
+    top: 0;
+    width: 110%;
+    z-index: 1000;
+}
+
+.logoFooter
+{
+    width: 50%;
+}
+.bgcFooter
+{
+    background-color: #3a3a3a;
+}
+.p
+{
+    color: #ffffff;
+}
+p
+{
+    line-height: 2vh;
+}
+.borderFooter
+{
+    margin-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: rgb(150, 150, 150) 2px solid;
+}
+.marginTop
+{
+   margin-top: 20%;
+}
+.fontSize
+{
+    font-size: 3.5vh;
+    
+}
+.fontSize a
+{
+    color: rgb(255, 255, 255) !important;
+   
+    line-height: 2vh;
+}
+.facebook:hover
+{
+    color: #1877F2 !important;
+    text-decoration: none;
+}
+.p a:hover
+{
+    color:#fbb800;
+    text-decoration: none;
+}
+
+.youtube:hover
+{
+    color: #c80303 !important;
+    text-decoration: none;
+}
+
+.linkedin:hover
+{
+    color: #0077B5 !important;
+    text-decoration: none;
+}
+
+.instagram:hover
+{
+    color: #bb6b35 !important;
+    text-decoration: none;
+}
+
+/* Ustawienie stopki jako flex container */
+.footer-content {
+    display: flex;
+    justify-content: center; /* Centrowanie zawartości w poziomie */
+    align-items: center; /* Centrowanie zawartości w pionie */
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+/* Ustawienie kolumn jako flex container */
+.footer-content .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-content .marginTop {
+    margin-top: 10px; /* Dostosuj w zależności od potrzeb */
+}
+
+.footer-content .fontSize a {
+    margin: 0 10px; /* Równe odstępy między ikonami */
+        color: #333; /* Kolor ikon */
+    transition: color 0.3s ease; /* Animacja zmiany koloru */
+}
+
+
+.logoFooter {
+    max-width: 60%; /* Ustaw maksymalną szerokość logo */
+    height: auto; /* Zachowaj proporcje logo */
+}
+
+.headerContentMain
+{
+    width: 100%;
+    text-align: center;
+    background-color:#fbb800 ;
+    border-radius: 12px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32%;
+    padding: 0.2%;
+    font-size: 2.5vh;
+    transform: rotate(0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+}
+.imagesR
+{
+    margin-top: 50%;
+    width: 50%;
+}
+.bold
+{
+    font-weight: 900;
+    color: 3a3a3a;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.span
+{
+    font-weight: 800;
+}
+.mainText
+{
+    margin-top: 6%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 2vh;
+    padding-bottom: 10%;
+}
+.bgColor
+{
+    background-color: #F5F5F5;
+}
+.deg
+{
+    display: block;
+    transform: rotate(-0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+    padding-top: 1%;
+}
+.squere
+{
+    width: 40%; 
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+.squere img
+{
+    width: 90%;  
+}
+.inputMain
+{
+    border-radius: 100%;
+    width: 2%;
+    height: 1.8vh;
+    border: none;
+    z-index: 1111;
+    background-color: transparent;
+}
+.jeden
+{
+    position: absolute;
+    top: 97.5%;
+    right: 62.5%;
+    z-index: 1111;
+    border-radius: none;
+}
+.dwa
+{
+    position: absolute;
+    top: 97.5%;
+    right: 57.4%;
+    z-index: 1111;
+}
+.trzy
+{
+    position: absolute;
+    top: 97.5%;
+    right: 52.5%;
+    z-index: 1111;
+}
+.cztery
+{
+    position: absolute;
+    top: 97.5%;
+    right: 47.5%;
+    z-index: 1111;
+}
+.headerContentMain2
+{
+    width: 50%;
+    text-align: center;
+    background-color:#fbb800 ;
+    border-radius: 12px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    padding: 0.2%;
+    font-size: 2.5vh;
+    transform: rotate(0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+}
+.myImage2
+{
+    width: 80%;
+}
+.height
+{
+    width: 100%; 
+}
+.height2
+{
+    width: 80%;
+    height: 30vh;
+    border: solid 1px #fbb800;
+    border-radius: 0 0 0 4vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    margin-bottom:10%;
+    padding: 2.5%;
+}
+.height3
+{
+    width: 80%;
+    height: 30vh;
+    border: solid 1px #fbb800;
+    border-radius: 0 0 0 4vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    margin-bottom:10%;
+    padding: 2.5%;
+}
+.height4
+{
+    width: 80%;
+    height: 30vh;
+    border: solid 1px #fbb800;
+    border-radius: 0 0 0 4vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    margin-bottom:10%;
+    padding: 2.5%;
+}
+.height5
+{
+    width: 80%;
+    height: 30vh;
+    border: solid 1px #fbb800;
+    border-radius: 0 0 0 4vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    margin-bottom:10%;
+    padding: 2.5%;
+}
+.height2::before {
+    content: "Zyskanie biegłości językowej​"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -11%; /* Przesunięcie napisu do góry */
+    left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0 5px; /* Padding wokół napisu */
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+}
+.height3::before {
+    content: "Poszerzenie horyzontów "; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -11%; /* Przesunięcie napisu do góry */
+    left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0 5px; /* Padding wokół napisu */
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+}
+.height4::before {
+    content: "Konkurencyjność na rynku pracy"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -11%; /* Przesunięcie napisu do góry */
+    left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0 5px; /* Padding wokół napisu */
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+}
+.height5::before {
+    content: "Mobilność zawodowa"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -11%; /* Przesunięcie napisu do góry */
+    left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0 5px; /* Padding wokół napisu */
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+}
+.odstep
+{
+    margin-right: -5%;
+    margin-left: 10%;
+}
+.odstep2
+{
+    margin-right: -5%;
+    margin-left: -5%;
+}
+.headerP
+{
+    width: 70%;
+    text-align: center;
+    background-color:#fbb800 ;
+    border-radius: 12px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 0.6%;
+    font-size: 2.5vh;
+    transform: rotate(0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+}
+.headerSpan
+{
+    display: block;
+    transform: rotate(-0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right /* Punkt obrotu na lewej krawędzi */
+}
+.headerZnakOne
+{
+    color: white; /* Kolor tekstu w środku */
+    font-weight: bold; /* Zwiększa grubość czcionki, aby obramowanie było wyraźniejsze */
+    text-shadow: 
+    -1px -1px 0 #fbb800,  
+    1px -1px 0 #fbb800,  
+    -1px 1px 0 #fbb800,  
+    1px 1px 0 #fbb800; /* Czterostronne cienie dla efektu obramowania */
+    float: left;
+    font-size: 12vh;
+    position: relative;
+    left: 36%;
+    top: 6%;
+}
+.headerZnakTwo
+{
+    color: #fbb800; /* Kolor tekstu w środku */
+    font-weight: bold; /* Zwiększa grubość czcionki, aby obramowanie było wyraźniejsze */
+    float: left;
+    font-size: 12vh;
+    display: block;
+    position: relative;
+    left: 36%;
+    top: 6%;
+}
+.headerNumber
+{
+    float: left;
+    font-size: 10vh;
+    position: relative;
+    left: 0%;
+    top: 7%;
+}
+.headerNumber1
+{
+    font-size: 10vh;
+    position: relative;
+    left: 0%;
+    top: 3%;
+}
+.kropka
+{
+    color: #fbb800; /* Kolor tekstu w środku */
+}
+.mainContentB
+{
+    clear: both;
+    border: #fbb800 solid 1px;
+    height: 40vh;
+    width: 70%;
+    border-radius: 12px;
+}
+.b
+{
+    display: block;
+    margin-top: 8%;
+    padding: 2%;
+}
+.mainContentP
+{
+    display: block;
+    margin-top: 8%;
+    padding: 2%;
+    line-height: 160%;
+}
+.odstep3
+{
+    margin-left: -8%;
+}
+.odstep4
+{
+    margin-left: 13%;
+}
+.odstep55
+{
+    margin-left: -8%;
+}
+.odstep5
+{
+    margin-bottom: 5%;
+}
+.height22::before {
+    content: "UWIERZ W SWOJE MOŻLIWOŚCI…​​"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -3%; /* Przesunięcie napisu do góry */
+    left: -0.5%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0.5%;
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0.8vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    letter-spacing: -1px;
+    font-size: 1.8vh;
+}
+.height33::before {
+    content: "WYBIERZ WYMARZONY KIERUNEK…​​​"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -3%; /* Przesunięcie napisu do góry */
+    left: -0.5%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0.5%;
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0.8vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    letter-spacing: -1px;
+    font-size: 1.8vh;
+}
+.height44::before {
+    content: "ZAPISZ SIĘ JUŻ DZIŚ!​​​"; /* Treść napisu */
+    position: relative; /* Pozycjonowanie absolutne napisu */
+    top: -3%; /* Przesunięcie napisu do góry */
+    left: -0.5%; /* Wyrównanie napisu do lewej strony kontenera */
+    font-size: 2vh;
+    background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+    padding: 0.5%;
+    font-weight: bold; /* Stylizacja tekstu */
+    border-radius:  0.8vh; /* Zaokrąglenie tylko prawego dolnego rogu */
+    letter-spacing: -1px;
+    font-size: 1.8vh;
+}
+.rownanie2
+{
+    margin-top: 4%;
+}
+.headerP2
+{
+    width: 60%;
+    text-align: center;
+    background-color:#fbb800 ;
+    border-radius: 12px;
+    font-weight: 900;
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 0.3%;
+    font-size: 2.5vh;
+    transform: rotate(0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+    transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+}
+.imagesR2
+{
+    width: 65%;
+    margin-top: 10%;
+    margin-left: -20%;
+}
+.headerP3
+{
+   text-align: center;
+   font-size: 2vh;
+   margin-left: 20%;
+}
+.headerPB
+{
+   text-align: center;
+   font-weight: 900;
+   font-size: 2.1vh;
+   margin-left: 20%;
+   margin-top: -1%;
+}
+.imagesR4
+{
+    width: 6%;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 28%;
+    margin-bottom: 10%;
+}
+.imagesR3
+{
+    width: 40%;
+    margin-top: 30%;
+}
+.faq
+{
+    display: block;
+    position: absolute;
+    top:1%;
+    right: 50%;
+    font-size: 3.5vh;
+    font-weight: 900;
+}
+.underLine
+{
+    display: block;
+    position: absolute;
+    top:1%;
+    width: 50%;
+    height: 4vh;
+    right: -16%;
+    border-bottom:solid 1px #707070 ;
+}
+
+
+
+
+
+
+.toggle-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    outline: none;
+}
+
+.toggle-button:hover {
+    background-color: transparent;
+}
+
+.line {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: #fbb800;
+    transition: transform 0.3s ease;
+}
+
+.horizontal {
+    transform: rotate(0deg);
+}
+
+.vertical {
+    transform: rotate(90deg);
+}
+
+.minus .horizontal {
+    transform: rotate(0deg);
+}
+
+.minus .vertical {
+    transform: rotate(0deg);
+    width: 40px;
+}
+
+.rotated {
+    transform: rotate(-180deg);
+}
+
+.rotated.minus .horizontal {
+    transform: rotate(0deg);
+}
+
+.rotated.minus .vertical {
+    transform: rotate(0deg);
+    width: 40px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    display: block;
+}
+
+
+.show {
+    opacity: 1;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    transition: opacity 0.5s ease, height 0.5s ease;
+
+}
+
+.position
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 14%;
+    left: 3%;
+}
+.optionOneP
+{
+    position: absolute;
+    display: block;
+    top: 19%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionOneP
+{
+    position: absolute;
+    display: block;
+    top: 28%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+
+.position2
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 33%;
+    left: 3%;
+}
+.optionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 38%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position3
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 51%;
+    left: 3%;
+}
+.optionThreP
+{
+    position: absolute;
+    display: block;
+    top: 56%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionThreP
+{
+    position: absolute;
+    display: block;
+    top: 62%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position4
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 69%;
+    left: 3%;
+}
+.optionFourP
+{
+    position: absolute;
+    display: block;
+    top: 74%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionFourP
+{
+    position: absolute;
+    display: block;
+    top: 82%;
+    left: 9%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+.lastHeader
+{
+    position: relative;
+    display: block;
+    clear: both;
+    margin-left: 43.5%;
+    font-size: 2.1vh;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.lastInput
+{
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 4vh;
+    background-color:#fbb800;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius:12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.4%;
+    margin-bottom: 15%;
+}
+.lastInput:hover
+{
+    color: black;
+    background-color:#dea300;
+}
+@media (max-width: 1630px) 
+{
+.positionAbsolutOne
+{
+    height: 60vh;
+}
+
+.lastHeader
+{
+    position: relative;
+    display: block;
+    clear: both;
+    margin-left: 41.5%;
+    font-size: 2.1vh;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.position
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 6%;
+    left: 0%;
+}
+.optionOneP
+{
+    position: absolute;
+    display: block;
+    top: 8%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionOneP
+{
+    position: absolute;
+    display: block;
+    top: 18%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+
+.position2
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 28%;
+    left: 0%;
+}
+.optionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 31%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 38%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position3
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 51%;
+    left: 0%;
+}
+.optionThreP
+{
+    position: absolute;
+    display: block;
+    top: 54%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionThreP
+{
+    position: absolute;
+    display: block;
+    top: 62%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position4
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 79%;
+    left: 0%;
+}
+.optionFourP
+{
+    position: absolute;
+    display: block;
+    top: 84%;
+    left: 9%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionFourP
+{
+    top: 92%;
+    left: 9%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+
+    .imagesR2
+    {
+        display: none;
+    }
+    .imagesR3
+    {
+        display: none;
+    }
+    .imagesR4
+    {
+        display: none;
+    }
+    .underLine
+    {
+        display: none;
+    }
+    .rownanie2
+    {
+        margin-top: 1%;
+    }
+    .mainContentB
+    {
+       
+        height: 90%;
+        width: 70%;
+        border-radius: 12px;
+    }
+    .headerNumber
+    {
+        font-size: 7vh;
+        left: 0%;
+        top: 1%;
+    }
+    .headerNumber1
+    {
+        font-size: 7vh;
+        left: 0%;
+       top: 1.5%;
+    }
+    .headerZnakOne
+    {
+        display: none;
+    }
+    .headerZnakTwo
+    {
+        display: none;
+    }
+    .lastHeader
+    {
+        position: relative;
+        display: block;
+        clear: both;
+        margin-left: 41%;
+        font-size: 2.1vh;
+        font-weight: bold;
+        margin-top: 10% !important;
+    }
+}
+
+@media (max-width: 1500px) 
+{
+   
+    .lastHeader
+    {
+        position: relative;
+        display: block;
+        clear: both;
+        margin-left: 41%;
+        font-size: 2.1vh;
+        font-weight: bold;
+        margin-top: 2%;
+    }
+
+    
+    .height2
+    {
+        height: 56vh;
+    }
+    .height3
+    {
+        height: 56vh;
+    }
+    .height4
+    {
+        height: 56vh;
+    }
+    .height5
+    {
+        height: 56vh;
+    }
+    .MainText
+    {
+        text-align: left;
+        font-size: 1.8vh;
+    }
+    .height2::before {
+        content: "Zyskanie biegłości językowej​"; /* Treść napisu */
+        position: relative; /* Pozycjonowanie absolutne napisu */
+        top: -4%; /* Przesunięcie napisu do góry */
+        left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+        font-size: 1.7vh;
+        background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+        padding: 0 5px; /* Padding wokół napisu */
+        font-weight: bold; /* Stylizacja tekstu */
+        border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+    }
+    .height3::before {
+        content: "Poszerzenie horyzontów "; /* Treść napisu */
+        position: relative; /* Pozycjonowanie absolutne napisu */
+        top: -4%; /* Przesunięcie napisu do góry */
+        left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+        font-size: 1.7vh;
+        background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+        padding: 0 5px; /* Padding wokół napisu */
+        font-weight: bold; /* Stylizacja tekstu */
+        border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+    }
+    .height4::before {
+        content: "Konkurencyjność na rynku pracy"; /* Treść napisu */
+        position: relative; /* Pozycjonowanie absolutne napisu */
+        top: -4%; /* Przesunięcie napisu do góry */
+        left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+        font-size: 1.7vh;
+        background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+        padding: 0 5px; /* Padding wokół napisu */
+        font-weight: bold; /* Stylizacja tekstu */
+        border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+    }
+    .height5::before {
+        content: "Mobilność zawodowa"; /* Treść napisu */
+        position: relative; /* Pozycjonowanie absolutne napisu */
+        top: -4%; /* Przesunięcie napisu do góry */
+        left: -3.8%; /* Wyrównanie napisu do lewej strony kontenera */
+        font-size: 1.7vh;
+        background: #fbb800; /* Tło dla napisu, aby zakrywało border */
+        padding: 0 5px; /* Padding wokół napisu */
+        font-weight: bold; /* Stylizacja tekstu */
+        border-radius:  0 4vh 4vh 0; /* Zaokrąglenie tylko prawego dolnego rogu */
+    }
+    .headerP2
+    {
+        margin-left: 10%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;
+    }
+    .headerPB
+    {
+        margin-left: 10%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;
+    }
+    .headerP3
+    {
+        margin-left: 10%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;  
+    }
+}
+#dlaczego
+{
+    cursor: pointer;
+}
+#zapisac
+{
+    cursor: pointer;
+}
+#faq
+{
+    cursor: pointer;
+}
+
+#home
+{
+    cursor: pointer;
+}
+.inputHeaderOne
+{
+    text-decoration: none;
+    color: #4b4b4b !important;
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-top: 10%;
+    margin-right: 4%;
+    margin-bottom: -20%;
+}
+.inputHeaderTwo
+{
+      text-decoration: none;
+    color: #4b4b4b !important;
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-top: 10%;
+    margin-right: 4%;
+    margin-bottom: -20%;
+}
+@media (max-width: 991px) 
+{
+    .myImage2
+    {
+        width: 100%;
+    }
+.lastHeader
+{
+    display: block;
+    position: relative;
+    clear: both;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.1vh;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.lastInput
+{
+    display: block;
+    width: 90%;
+    height: 4vh;
+    background-color:#fbb800;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius:12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.4%;
+    margin-bottom: 25%;
+}
+    .position
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 0%;
+}
+.optionOneP
+{
+    position: absolute;
+    display: block;
+    top: 2%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionOneP
+{
+    position: absolute;
+    display: block;
+    top: 13%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+
+.position2
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 25%;
+    left: 0%;
+}
+.optionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 27%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionTwoP
+{
+    position: absolute;
+    display: block;
+    top: 36%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position3
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 58%;
+    left: 0%;
+}
+.optionThreP
+{
+    position: absolute;
+    display: block;
+    top: 60%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionThreP
+{
+    position: absolute;
+    display: block;
+    top: 69%;
+    left: 12%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+
+.position4
+{
+    float: left;
+    position: absolute;
+    display: block;
+    top: 90%;
+    left: 0%;
+}
+.optionFourP
+{
+    position: absolute;
+    display: block;
+    top: 92%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+.showOptionFourP
+{
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 9%;
+    padding: 1%;
+    border-left: solid 2px #fbb800 !important;
+}
+    .headerP2
+    {
+        margin-left: 0%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;
+    }
+    .headerPB
+    {
+        margin-left: 0%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;
+    }
+    .headerP3
+    {
+        margin-left: 0%;
+        height: auto;
+        line-height: 120%;
+        width: 100%;  
+    }
+    .imagesR2
+    {
+        display: none;
+    }
+    .imagesR3
+    {
+        display: none;
+    }
+    .imagesR4
+    {
+        display: none;
+    }
+    .underLine
+    {
+        display: none;
+    }
+    .headerP
+    {
+       width: 100%;
+       font-size: 3vh;
+       line-height: 3vh;
+    }
+    .headerZnakOne
+    {
+        display: none;
+    }
+    .headerZnakTwo
+    { 
+        display: none;
+
+    }
+    .mainContentB
+    {
+        height: 90%;
+        width: 90%;
+    }
+    .odstep3{
+        margin-left: 8%;    
+        margin-top: 6%;
+    }
+    .odstep55{
+        margin-left: 8%;    
+        margin-top: 6%;
+        margin-bottom: 5%;
+        
+    }
+    .headerNumber
+    {
+        font-size: 7vh;
+        left: 0%;
+        top:2%;
+    }
+    
+    .height2
+    {
+        height: auto;
+        width: 100%;
+    }
+    .height3
+    {
+        height: auto;
+        width: 100%;
+
+    }
+    .height4
+    {
+        height: auto;
+        width: 100%;
+
+    }
+    .height5
+    {
+        height: auto;
+        width: 100%;
+
+    }
+    .odstep2
+    {
+        margin-right: 0%;
+    }
+    
+    .marginMobile
+    {
+        margin-left: 0%;
+    }
+    .marginMobile2
+    {
+        margin-left: 0%;
+    }
+    .headerContentMain2
+    {
+        width: 100%;
+        text-align: center;
+        background-color:#fbb800 ;
+        border-radius: 12px;
+        font-weight: 900;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9%;
+        margin-bottom: 5%;
+        padding: 0.6%;
+        font-size: 2.5vh;
+        transform: rotate(0.5deg); /* Obniżenie prawej strony (odwrotność podniesienia lewej) */
+        transform-origin: right; /* Punkt obrotu na lewej krawędzi */
+        
+    }
+    .odstep
+    {
+        margin-right: 0%;
+    }
+
+    .jeden
+    {
+        display: block;
+        margin: 0 auto;
+        width: 4%;
+        height: 3vh;
+        border-radius: 0%;
+        float: left;
+        position: absolute;
+        top: 97%;
+        left:43%;
+        
+    }
+    .dwa
+    {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        position: absolute;
+        top: 97%;
+        left: 48%;
+        height: 3vh;
+        width: 4%;
+        border-radius: 0%;
+      
+    }
+    .trzy
+    {
+        display: block;
+        margin: 0 auto;
+        float: left;
+        position: absolute;
+        top: 97%;
+        left: 54%; 
+        height: 3vh;
+        width: 4%;
+        border-radius: 0%;
+    }
+    .cztery
+    {
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        top: 97%;
+        left: 60%;
+        float: left;
+        cursor: pointer;
+        height: 3vh;
+        width: 4%;
+        border-radius: 0%;
+    }
+    .bgColor
+    {   
+      margin-bottom: 5%;
+     
+    }
+    .headerContentMain
+    {
+        margin-top: 25%;
+    }
+    .squere
+    {
+        width: 100%; 
+        position: relative;
+        margin-bottom: 5%;
+        z-index: 0;
+    }
+    #myImage
+    {
+        position: relative;
+        z-index: -1;
+    }
+    .squere img
+    {
+        margin-left: 5%;
+        width: 100%;
+       
+    }
+    .displayN
+    {
+        display: none;
+    }
+   
+    .fontSize
+    {
+        font-size: 3vh;
+        
+    }
+    .bootom
+    {
+        margin-top: -2%;
+    }
+    #navbarNav
+    {
+        margin-right: 17%;
+        
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .logoFooter
+    {
+        width: 40%;
+    }
+        .bootom
+    {
+        padding-top: 10%;
+    }
+    .height3::before {
+        content: "Poszerzenie horyzontów ";
+        position: relative;
+        top: -110%;
+        left: -2.6%;
+        font-size: 1.7vh;
+    }
+    .height4::before {
+        content: "Poszerzenie horyzontów ";
+        position: relative;
+        top: -12%;
+        left: -2.6%;
+        font-size: 1.7vh;
+    }
+    .height2::before {
+        content: "Poszerzenie horyzontów ";
+        position: relative;
+        top: -12%;
+        left: -2.6%;
+        font-size: 1.7vh;
+    }
+    .height5::before {
+        content: "Poszerzenie horyzontów ";
+        position: relative;
+        top: -12%;
+        left: -2.6%;
+        font-size: 1.7vh;
+    }
+    #navbarNav
+    {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 651px) 
+{
+    .lastHeader
+    {
+        display: block;
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 2.1vh;
+        font-weight: bold;
+        margin-top: 50%;
+        margin-bottom: 10%;
+    }
+    .inputHeaderOne
+    {
+        text-decoration: none;
+        color: #4b4b4b !important;
+        position: relative;
+        text-align: left;
+        display: block;
+        margin-top: 2%;
+        margin-right: 4%;
+        margin-bottom: -30%;
+        margin-left: 0%;
+    }
+    .position
+    {
+        float: left;
+        position: absolute;
+        display: block;
+        top: 0%;
+        left: 0%;
+    }
+    .optionOneP
+    {
+        position: absolute;
+        display: block;
+        top: 2%;
+        left: 10%;
+        font-weight: 700;
+        font-size: 1.6vh;
+    }
+    .showOptionOneP
+    {
+        position: absolute;
+        display: block;
+        top: 13%;
+        left: 12%;
+        padding: 1%;
+        border-left: solid 2px #fbb800 !important;
+    }
+    
+    
+    .position2
+    {
+        float: left;
+        position: absolute;
+        display: block;
+        top: 25%;
+        left: 0%;
+    }
+    .optionTwoP
+    {
+        position: absolute;
+        display: block;
+        top: 27%;
+        left: 10%;
+        font-weight: 700;
+        font-size: 1.6vh;
+    }
+    .showOptionTwoP
+    {
+        position: absolute;
+        display: block;
+        top: 36%;
+        left: 12%;
+        padding: 1%;
+        border-left: solid 2px #fbb800 !important;
+    }
+    
+    .position3
+    {
+        float: left;
+        position: absolute;
+        display: block;
+        top: 58%;
+        left: 0%;
+    }
+    .optionThreP
+    {
+        position: absolute;
+        display: block;
+        top: 60%;
+        left: 10%;
+        font-weight: 700;
+        font-size: 1.6vh;
+    }
+    .showOptionThreP
+    {
+        position: absolute;
+        display: block;
+        top: 69%;
+        left: 12%;
+        padding: 1%;
+        border-left: solid 2px #fbb800 !important;
+    }
+    
+    .position4
+    {
+        float: left;
+        position: absolute;
+        display: block;
+        top: 105%;
+        left: 0%;
+    }
+    .optionFourP
+    {
+        position: absolute;
+        display: block;
+        top: 107%;
+        left: 10%;
+        font-weight: 700;
+        font-size: 1.6vh;
+    }
+    .showOptionFourP
+    {
+        position: absolute;
+        display: block;
+        top: 118%;
+        left: 9%;
+        padding: 1%;
+        border-left: solid 2px #fbb800 !important;
+    }
+
+}
+@media (max-width: 451px) 
+{
+    .lastHeader
+    {
+        display: block;
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 2.1vh;
+        font-weight: bold;
+        margin-top: 70% !important;
+        margin-bottom: 10%;
+    }
+}
+@media (max-width: 369px) 
+{
+    .lastHeader
+    {
+        display: block;
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 2.1vh;
+        font-weight: bold;
+        margin-top: 80% !important;
+        margin-bottom: 10%;
+    }
+}
