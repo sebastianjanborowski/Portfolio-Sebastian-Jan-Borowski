@@ -1,0 +1,323 @@
+body
+{
+    overflow-x: hidden;
+   /* padding-top: 30px; /* Dodatkowy padding na górze, aby menu nie przysłaniało treści */
+   font-family: 'Jost', sans-serif;
+}
+.error
+{
+    color: red;
+    font-size: 2.5vh;
+    width: auto;
+    height: auto; 
+}
+.a
+{
+    color: #34A853;
+}
+.a:hover
+{
+    color: #0d6c23;
+}
+.google-icon
+{
+    margin-right: 3.5%;
+}
+.google-icon {
+    color: #4285F4; /* Niebieski */
+    background: -webkit-linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4vh; /* Rozmiar ikony */
+}
+.fejsbuk
+{
+    font-size:4vh;
+    color:#ffffff;
+    
+}
+.h2
+{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 4vh;
+}
+.facebook
+{ 
+    width: 70%;
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:#1877F2;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
+.facebook:hover
+{
+    background-color: #0766E1;
+}
+.google
+{
+    text-align: center;
+    width: 70%;
+    padding: 1%;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    margin-top: 1%;
+    background-color: white;
+}
+.wymaganeDane
+{
+    font-size: 3vh;
+    color: red;
+}
+.google:hover
+{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Jednolity cień */
+}
+.obramowanieDolne
+{
+    padding: 2%;
+    border-bottom: 1px solid black;
+}
+
+.photoRejestracja
+{
+    width: 50%;
+    border-radius: 10%;
+    margin-top: 7%
+}
+
+.button
+{
+   display: block;
+   width: 70%;
+   margin-top: 5%;
+   border-radius: 20px;
+   padding: 0.5%;
+   background-color: rgb(14, 151, 10);
+   color: whitesmoke;
+   font-size: 3vh;
+}
+.button:hover
+{
+    background-color: rgb(9, 146, 5);
+}
+.h3
+{
+    text-align: center;
+    font-size: 4vh;
+}
+.input
+{
+    width: 70%;
+    margin-left: -17%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5vh;
+    transition: background-color 0.5s, transform 0.5s;
+}
+.input:focus {
+    background-color: #44de6d;
+    transform: scale(1.02) translateY(-2px);
+}
+
+
+.r
+{
+   margin-left: 13%;
+}
+.marginesCheck
+{
+    margin-top: 4%;
+}
+.font-size
+{
+    font-size: 2.5vh;
+}
+input[type="checkbox"] {
+    position: relative;
+    width: 3%; /* Ustalamy szerokość na dwa razy większą niż standardowa */
+    height: 3vh; /* Ustalamy wysokość na dwa razy większą niż standardowa */
+    cursor: pointer;
+    -webkit-appearance: none; /* Usuwa domyślny wygląd na WebKit (Chrome, Safari) */
+    appearance: none; /* Usuwa domyślny wygląd na innych przeglądarkach */
+    background-color: #fff; /* Kolor tła */
+    border: 2px solid #ccc; /* Kolor obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    outline: none; /* Usuwa outline */
+    position: relative; /* Konieczne do poprawnego działania pseudo-elementów */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Płynne przejście kolorów */
+}
+input[type="checkbox"]:checked {
+    background-color: #42f463; /* Kolor dla zaznaczonego checkboxa (Google Blue) */
+    border-color: #000000;
+}
+
+/* Dodanie "ptaszka" do zaznaczonego checkboxa */
+
+
+/* Pokazuje "ptaszek" po zaznaczeniu */
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+.span
+{
+    color: red;
+    font-size: 3vh;
+}
+
+
+
+@media (max-width: 1200px) {
+    .facebook
+    {
+        font-size: 2.5vh;
+    }
+    .google
+    {
+        font-size: 2.5vh;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .h2{
+        margin-top: 15%;
+    }
+    .r
+    {
+    margin-left: 0;
+    }
+    input[type="checkbox"] {
+        position: relative;
+        width: 3.5%; /* Ustalamy szerokość na dwa razy większą niż standardowa */
+        height: 3vh; /* Ustalamy wysokość na dwa razy większą niż standardowa */
+    }
+    .photoRejestracja
+    {
+        display: none;
+    }
+    .input
+    {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .marginesCheck
+    {
+        margin-top: 4%;
+        margin-left: -3%;
+    }
+    .button
+    {
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+    padding: 1%;
+    }
+    .checkbox
+    {
+        margin-top: 4%;
+    }
+    .facebook
+    {
+       margin-left: 0;
+       width: 100%;
+       margin-bottom: 3%;
+       text-align: center;
+       font-size: 3vh;
+    }
+    .google
+    {
+       margin-left: 0;
+       clear: both;
+       width: 100%;
+       margin-bottom: 2%;
+       text-align: center;
+       font-size: 3vh;
+    }
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .h2{
+        margin-top: 25%;
+    }
+}
+@media (max-width: 400px) {
+    .h2{
+        margin-top: 31%;
+    }
+}
+@media (max-width: 470px) {
+    .facebook
+    {
+      
+       font-size: 2.5vh;
+    }
+    .google
+    {
+       
+       font-size: 2.5vh;
+    }
+}
+@media (max-width: 475px) {
+    input[type="checkbox"] {
+        position: relative;
+        width: 7%; /* Ustalamy szerokość na dwa razy większą niż standardowa */
+        height: 3vh; /* Ustalamy wysokość na dwa razy większą niż standardowa */
+        cursor: pointer;
+        -webkit-appearance: none; /* Usuwa domyślny wygląd na WebKit (Chrome, Safari) */
+        appearance: none; /* Usuwa domyślny wygląd na innych przeglądarkach */
+        background-color: #fff; /* Kolor tła */
+        border: 2px solid #ccc; /* Kolor obramowania */
+        border-radius: 5px; /* Zaokrąglenie rogów */
+        outline: none; /* Usuwa outline */
+        position: relative; /* Konieczne do poprawnego działania pseudo-elementów */
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Płynne przejście kolorów */
+    }
+}
+@media (max-width: 451px) {
+    input[type="checkbox"] {
+        position: relative;
+        width: 6%; /* Ustalamy szerokość na dwa razy większą niż standardowa */
+        height: 3vh; /* Ustalamy wysokość na dwa razy większą niż standardowa */
+        cursor: pointer;
+        -webkit-appearance: none; /* Usuwa domyślny wygląd na WebKit (Chrome, Safari) */
+        appearance: none; /* Usuwa domyślny wygląd na innych przeglądarkach */
+        background-color: #fff; /* Kolor tła */
+        border: 2px solid #ccc; /* Kolor obramowania */
+        border-radius: 5px; /* Zaokrąglenie rogów */
+        outline: none; /* Usuwa outline */
+        position: relative; /* Konieczne do poprawnego działania pseudo-elementów */
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Płynne przejście kolorów */
+    }
+    
+    
+}
+@media (max-width: 387px) {
+    input[type="checkbox"] {
+        position: relative;
+        width: 8%; /* Ustalamy szerokość na dwa razy większą niż standardowa */
+        height: 3vh; /* Ustalamy wysokość na dwa razy większą niż standardowa */
+        cursor: pointer;
+        -webkit-appearance: none; /* Usuwa domyślny wygląd na WebKit (Chrome, Safari) */
+        appearance: none; /* Usuwa domyślny wygląd na innych przeglądarkach */
+        background-color: #fff; /* Kolor tła */
+        border: 2px solid #ccc; /* Kolor obramowania */
+        border-radius: 5px; /* Zaokrąglenie rogów */
+        outline: none; /* Usuwa outline */
+        position: relative; /* Konieczne do poprawnego działania pseudo-elementów */
+        transition: background-color 0.3s ease, border-color 0.3s ease; /* Płynne przejście kolorów */
+    }
+    
+    
+}

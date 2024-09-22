@@ -1,0 +1,426 @@
+body
+{
+    font-family: 'Jost', sans-serif;
+}
+.h
+{
+   
+    font-size: 35px;
+    margin-left: 90px;
+    font-family: 'Averia Serif Libre', serif;
+    font-weight: 500;
+}
+.p
+{
+    
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.zd
+{   
+    border-radius: 10px;
+    width: 70%;
+    height: 100%;
+    padding-bottom: 10px;
+    margin-left: 130px;
+}
+.od
+{
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);  
+}
+.mapa
+{
+    height: auto;
+    width: 100%;
+    
+}
+.tlo 
+{
+    height: auto;
+    width: auto;
+    
+}
+.na
+{
+    position: relative;
+}
+.nah
+{
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    font-size: 2.5vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nap
+{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 1.5vw; /* Rozmiar czcionki: 1.5% szerokości rodzica */
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nad
+{   
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nam
+{
+    position: absolute;
+    top: 17%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nau
+{
+    position: absolute;
+    top: 21%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nao
+{
+    position: absolute;
+    top: 13%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 11em; /* Margines dolny: 0.5em */
+}
+.naP
+{
+    position: absolute;
+    top: 29%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nar
+{
+    position: absolute;
+    top: 33%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nat
+{
+    position: absolute;
+    top: 37%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nae
+{
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+}
+.nas
+{
+    position: absolute;
+    top: 41%;
+    left: 4%;
+    font-size: 1.6vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+    
+}
+.sklep
+{
+    text-decoration: none;
+    color: rgb(79, 113, 29);
+}
+.tel
+{
+    color: rgb(160, 99, 30);
+}
+.tel:hover
+{
+    color: rgb(117, 72, 21);
+}
+.sklep:hover
+{
+    color: rgb(160, 99, 30);
+}
+.r
+{
+    width: 100%;
+    height: 850px;
+    border-radius: 10px;
+}
+
+.link_margin
+{
+    margin-right: -30px;
+}
+
+.link_margin_p
+{
+    margin-left: -30px;
+}
+.messenger-button {
+    position: fixed;
+    bottom: 1%; /* Ustaw odstęp od dołu ekranu */
+    left: 1%; /* Ustaw odstęp od lewej krawędzi ekranu */
+    z-index: 9999; /* Ustaw z-index, aby przycisk był na wierzchu innych elementów */
+    border: none;
+    font-size: 60px;
+    border-radius: 30px;
+    color:#3b5998 ;
+    background-color: white;
+}
+
+@media (max-width: 991.98px) 
+{
+    .od
+    {
+        margin-top: 33%;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);  
+        border: none;
+    }
+    .messenger-button {
+        position: fixed;
+        bottom: 1%; /* Ustaw odstęp od dołu ekranu */
+        left: 1%; /* Ustaw odstęp od lewej krawędzi ekranu */
+        z-index: 9999; /* Ustaw z-index, aby przycisk był na wierzchu innych elementów */
+        border: none;
+        font-size: 5vh;
+        border-radius: 30px;
+        color:#3b5998 ;
+        background-color: white;
+    }
+    .link_margin
+    {
+        margin-right: auto;
+    }
+    
+    .link_margin_p
+    {
+        margin-left: auto;
+    }
+    .r
+    {
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+    }
+    
+    .sklep
+    {
+        text-decoration: none;
+        color: rgb(79, 113, 29);
+    }
+.tlo 
+{
+    height: auto;
+    width: 100%;
+    
+}
+    
+.mapa
+{
+    width: 100%;
+    margin-left: 0px;
+    
+}
+.zd
+{
+    width: 550px;
+    height: 260px;
+    margin-left: 15px;
+    display: none;
+}
+
+.p
+{
+text-align: center;
+font-size: 20px;
+margin-top: 10px;
+margin-left: 30px;
+}
+.h
+{
+font-size: 25px;
+margin-left: 30px;
+text-align: center;
+}
+
+}
+.o
+{
+    margin-top: 40px;
+}
+.link
+{
+    text-decoration: none;
+    color: rgb(80, 113, 34);
+    cursor: pointer;
+}
+.link:hover
+{
+    color: rgb(100, 133, 54);
+}
+
+.kf
+{
+    color: rgb(227, 163, 79);
+}
+.kl
+{
+    color: rgb(206, 20, 20);
+}
+.kp
+{
+    color: rgb(156, 132, 46);
+}
+.kn
+{
+    color: rgb(141, 15, 88);
+}
+.kt
+{
+    color: rgb(227, 62, 20);
+}
+.km
+{
+    color: rgb(148, 155, 11);
+}
+.kn
+{
+    color: rgb(141, 15, 88);
+}
+.ks
+{
+    color: rgb(226, 178, 55);
+}
+
+@media (max-width: 1000px) 
+{
+.nah
+{
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    font-size: 4.8vw; /* Rozmiar czcionki: 1.5% szerokości rodzica */
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nap
+{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 1em; /* Margines dolny: 0.5em */
+    white-space: nowrap; 
+}
+.nad
+{   
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nam
+{
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nau
+{
+    position: absolute;
+    top: 18%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nao
+{
+    position: absolute;
+    top: 26%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.naP
+{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nar
+{
+    position: absolute;
+    top: 34%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nat
+{
+    position: absolute;
+    top: 38%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+}
+.nae
+{
+    position: absolute;
+    top: 22%;
+    left: 4%;
+    font-size: 3vw;
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.nas
+{
+    position: absolute;
+    top: 42%;
+    left: 4%;
+    font-size: 3vw; /* Rozmiar czcionki: 1.5% szerokości rodzica */
+    margin-bottom: 2em; /* Margines dolny: 0.5em */
+    
+}
+}
+#scrollToTopBtn 
+{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  border-radius: 70%;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+.sticky
+{
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+

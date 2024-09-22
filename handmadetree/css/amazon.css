@@ -1,0 +1,36 @@
+
+.odstep2222
+{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.borderr
+{
+    width: 100%;
+    border-top: 1px solid black;
+    opacity: 0.2; margin-bottom:1%;
+    margin-top: -16%;
+    
+}
+.leter
+{
+    letter-spacing:2px;
+   
+}
+@media (max-width: 991.98px) {
+    .odstep2222
+    {
+        margin-top: 29%;
+    }
+    .borderr
+    {
+        width: 100%;
+        border-top: 1px solid black;
+        opacity: 0.2; margin-bottom:1%;
+        margin-top: 25%;
+        margin-bottom: -20%;
+    }
+    
+}
+
+

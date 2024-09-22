@@ -1,0 +1,22 @@
+body
+{
+    font-family: 'Jost', sans-serif;
+}
+.b
+{
+   font-size: 5vh;
+}
+.naglowek
+{
+    font-size: 2.5vh;
+}
+.bizuteriaOd
+{
+    margin-top: 7%;
+}
+@media (max-width: 991px) {
+    .bizuteriaOd
+    {
+        margin-top: 20%;
+    }
+  }
