@@ -1,0 +1,238 @@
+<div id="dwa" class="container-fluid hidden kolorMain">
+    <p>
+        <span class="spanTitles">Hawajskie Palmy</span>
+        <span id="drugiToogle" class="toggle-button" onclick="toggleContent(this)">+</span>
+    </p>
+    <div id="drugiContent" class="content">
+        <div class="step" onclick="toggleSubsteps(this)">Krok 1 <span id="spanDrugiContent" class="toggle-sign">+</span></div>
+        <div id="content2" class="content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2All">1.1 Wysokość rzeźby</h2>
+                </div>
+                <div class="col-lg-5 marg ods">
+                    <div id="hawajskieJeden">
+                        <img src="img-self/Hawajskie_Palmy/(1) Wyspa, żywica epoksydowa, palma z drutu (1).jpg" class="img-fluid wImages" id="main-image" onclick="openModal('main-image')">
+                        <div class="row">
+                            <img src="img-self/Hawajskie_Palmy/(2) Duża błękitna, niebieska, palma, morze z żywicy epoksydowej.jpg" class="img-fluid wImages23">
+                            <img src="img-self/Hawajskie_Palmy/(3) Złota hawajska palma, błękitne morze z żywicy epoksydowej.jpg" class="img-fluid wImages23 wImages233">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ods">
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions1" value="small" onchange="toggleCustomInput(false)"> Mała (10-12 cm)
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions1" value="medium" onchange="toggleCustomInput(false)"> Średnia (25-28 cm)
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions1" value="large" onchange="toggleCustomInput(false)"> Duża (35-38 cm)
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions1" value="custom" onchange="toggleCustomInput(true)"> Niestandardowy
+                    </label>
+                    <div class="form-group mt-3" id="customSizeInput">
+                        <label for="customSize">Podaj własny rozmiar:</label>
+                        <input class="clear form-control" type="text" id="customSize1" placeholder="Wpisz rozmiar">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <h2 class="h2All">1.2 Wybór użytego drutu</h2>
+                </div>
+
+                <div class="col-lg-5 marg ods">
+                    <div id="hawajskieJeden">
+                       <img src="img-self/Hawajskie_Palmy/(1)liście palmy złote.jpg" class="img-fluid wImages" id="main-image" onclick="openModal('main-image')">
+                        <div class="row">
+                            <img src="img-self/Hawajskie_Palmy/(2) liście palmy zielone.jpg" class="img-fluid wImages23" id="main-image" onclick="openModal('main-image')">
+                            <img src="img-self/Hawajskie_Palmy/(3) liście palmy różowe.jpg" class="img-fluid wImages23 wImages233" id="main-image" onclick="openModal('main-image')">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ods">
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions2" value="aluminium" onchange="toggleCustomInput2(1)"> Aluminium
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions2" value="miedz" onchange="toggleCustomInput2(2)"> Miedź
+                    </label>
+                    
+                    <div class="form-group mt-3" id="customSizeInput3">
+                        <p class="paragrafyP">Wybierając miedź, aktualnie nie ma opcji zmiany koloru, gdyż pozostawiamy materiał w jego naturalnej formie</p>
+                    </div>
+
+                    <div class="form-group mt-3" id="customSizeInput2">
+                        <h2 class="h2All">Kolor Liści</h2>
+                        <select id="leafColor" class="form-control listy">
+                            <option value="green">Zielony</option>
+                            <option value="gold">Złoty</option>
+                            <option value="blue">Błękitny</option>
+                            <option value="silver">Srebrny</option>
+                            <option value="pink">Różowy</option>
+                            <option value="purple">Jasny fiolet</option>
+                        </select>
+
+                        <div class="marginesGora">
+                            <h2 class="h2All">Kolor Pnia</h2>
+                            <label for="trunkColor">Wybierz kolor pnia:</label>
+                            <select id="trunkColor" class="form-control listy" onchange="toggleCustomTrunkColorInput()">
+                                <option value="light_brown">Brązowy jasny</option>
+                                <option value="dark_brown">Brązowy ciemny</option>
+                                <option value="black">Czarny</option>
+                                <option value="custom">Inny kolor (wpisz)</option>
+                            </select>
+                        </div>
+
+                        <div id="customTrunkColorInput" style="display: none; margin-top: 20px;">
+                            <input class="clear form-control odstepMiedzyInput" type="text" id="customTrunkColor" placeholder="Wpisz kolor">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 odstepInputs">
+                    <input class="nextInputK" value="Dalej" id="TwoNextOne" type="submit"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="step" onclick="toggleSubsteps(this)">Krok 2 <span id="TwoDwaSpan" class="toggle-sign">+</span></div>
+        <div id="dwaContentOne" class="content">
+        <div class="row">
+                <div class="col-lg-12 ods">
+                <h2 class="h2All">2.1 Ilość palm</h2>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions3" value="jeden" onchange="toggleCustomInput2(true)"> Jedna
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions3" value="dwa" onchange="toggleCustomInput2(false)"> Dwie
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions3" value="trzy" onchange="toggleCustomInput2(false)"> Trzy
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions3" value="inna" onchange="toggleCustomInput2(3)"> Inna liczba
+                    </label>
+
+                    <div style="display: none; margin-top: 20px;" class="form-group mt-3" id="customSizeInput4">
+                        <input class="clear" type="number" class="form-control" id="customSizeLiczbaPalm" placeholder="Wpisz Ilość">
+                    </div>
+                </div>
+                <div class="col-lg-6 ods">
+                    <div id="hawajskieJeden">
+                    <img src="img-self/Hawajskie_Palmy/(4) doniczki do bonsai, doniczka z twarzą.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(5) naturalny kamień, granit, serce z drewna, pistolet na klej.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(6)drewno z lasu, unikatowe drewno.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(7) morze na płycie mdf, morskie fale z żywicy epoksydowej.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    </div>
+                </div>
+                <div class="col-lg-6 ods">
+                <h2 class="h2All">2.2 Podstawa Palmy</h2>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions4" value="Doniczka Ceramiczna" onchange="toggleCustomInput2(true)"> Doniczka Ceramiczna
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions4" value="Kamień Naturalny" onchange="toggleCustomInput2(false)"> Kamień Naturalny
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions4" value="Płyta Mdf" onchange="toggleCustomInput2(false)"> Płyta Mdf
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions4" value="Drewno" onchange="toggleCustomInput2(false)"> Drewno
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions4" value="Inna" onchange="toggleCustomInput2(4)"> Inna Podstawa
+                    </label>
+
+                    <div style="display: none; margin-top: 20px;" class="form-group mt-3" id="customSizeInput5">
+                        <input class="clear" type="text" class="form-control" id="customPodstawaHawajskie" placeholder="Podaj podstawę">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-12 odstepInputs">
+                    <input class="nextInputK" value="Dalej" id="TwoNextTwo" type="submit"/>
+                </div>
+        </div>
+
+        <div class="step" onclick="toggleSubsteps(this)">Krok 3 <span id="TwoTrzySpan" class="toggle-sign">+</span></div>
+        <div id="dwaContentTwo" class="content">
+            <div class="row">
+            <div class="col-lg-6 ods">
+                    <div id="hawajskieJeden">
+                    <img src="img-self/Hawajskie_Palmy/(1) muszle, dekoracje morskie, perły.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(2) morski piasek, rozgiwazda, dekoracje.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(3) dekoracje morskie, rozgwiazda, kamienie, bursztyn.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(4) morskie fale z żywicy epoksydowej.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    </div>
+                </div>
+            <div class="col-lg-6 ods">
+                <h2 class="h2All">3.1 Dodatki</h2>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="muszle, piasek, kamienie" onchange="toggleCustomInput2(true)"> Muszle, piasek, kamienie
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="bursztyny" onchange="toggleCustomInput2(false)"> Bursztyny
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="rozgwiazda" onchange="toggleCustomInput2(false)"> Rozgwiazda
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="drewno" onchange="toggleCustomInput2(false)"> Drewno
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="morskie fale z żywicy epoksydowej" onchange="toggleCustomInput2(false)"> morskie fale z żywicy epoksydowej
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="perły" onchange="toggleCustomInput2(false)"> Perły
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions5" value="inna" onchange="toggleCustomInput2(5)"> Inne dodatki
+                    </label>
+
+                    <div style="display: none; margin-top: 20px;" class="form-group mt-3" id="customSizeInput6">
+                        <input class="clear" type="text" class="form-control" id="customSizeOzdobyHawajskie" placeholder="Wpisz Ilość">
+                    </div>
+                </div>
+                <div class="col-lg-6 ods">
+                    <div id="hawajskieJeden">
+                    <img src="img-self/Hawajskie_Palmy/(5) grawerowana plakietka złota, dedykacja.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    <img src="img-self/Hawajskie_Palmy/(6) grawerowana plakietka srebrna, dedykacja.jpg" class="img-fluid wImages4" id="main-image" onclick="openModal('main-image')">
+                    </div>
+                </div>
+                <div class="col-lg-6 ods">
+                <h2 class="h2All">3.2 Personalizacja  (Opcja dodatkowa)</h2>
+                    
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions6" value="Bez grawerowania" onchange="toggleCustomInput2()"> Bez grawerowania
+                    </label>
+                    <label class="btn btn-outline-primary clear">
+                        <input type="radio" name="sizeOptions6" value="grawerowanie" onchange="toggleCustomInput2(7)"> Grawerowanie
+                    </label>
+
+                    <div style="display: none; margin-top: 20px;" class="form-group mt-3" id="customSizeInput7">
+                        <input class="clear" type="text" class="form-control" id="customGrawerowanieHawajskie" placeholder="Podaj napis do grawerowania">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                <h2 class="h2All">3.3 Dodaj zdjęcie poglądowe  (Opcja dodatkowa)</h2>
+                <label for="photo" class="form-label fw-bold">Wybierz plik</label>
+                    <input type="file" class="form-control photoFile" id="photo" name="photo" accept="image/*">
+                </div>
+                
+                <div class="col-lg-12">
+                <h2 class="h2All">3.4 Pole tekstowe do opisania dodatkowych szczegółów  (Opcja dodatkowa)</h2>
+                    <input type="text" class="text" placeholder="Podaj Opis" id="opisPogladowy">
+                </div>
+                
+            </div>
+            
+            <div class="col-lg-12 odstepInputs">
+                    <input class="nextInputK" value="Podsumowanie" id="PodsumowanieHawajskie" type="submit"/>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
