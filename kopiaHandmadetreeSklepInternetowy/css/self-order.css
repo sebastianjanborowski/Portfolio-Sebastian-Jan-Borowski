@@ -1,0 +1,1040 @@
+body
+{
+    font-family: 'Jost', sans-serif;
+}
+.rightDiv{
+   width: 25%;
+   position: absolute;
+   top: 50%;
+   left: 1%; 
+   height: 10vh;
+}
+.imgSliderMain{
+    width: 75%;
+    margin-left: 12.5%;
+    height: auto;
+    border-radius: 20px;
+}
+.input3
+{
+    position: fixed;
+    right: 1%;
+    top: 6%;
+    padding-bottom: 0.5%;
+    width: 4%;
+    border-radius: 10px;
+    font-size: 4vh;
+    text-align: center;
+    border: solid 1px black;
+    transition: ease-in-out 0.3s;
+}
+.input3:hover{
+    transform: scale(1.1);
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.tabelaPodsumowanie {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.tabelaPodsumowanie th, .tabelaPodsumowanie td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.tabelaPodsumowanie th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tabelaPodsumowanie tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.strzalkaSlider
+{
+    scale: 1.2;
+    border: solid 1px black;
+    border-radius: 10px;
+    rotate: -180deg;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.strzalkaSlider:hover{
+    transform: scale(1.2);
+    background-color: lightblue;
+}
+
+.strzalkaSlider2{
+    scale: 1.2;
+    float: right;
+    border: solid 1px black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.strzalkaSlider2:hover{
+    transform: scale(1.2);
+    background-color: lightblue;
+}
+.leftDiv{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    right: 1%; 
+    height: 10vh;
+ }
+.sliderHawajskie{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10000;
+    top: 0%;
+    display: none;
+    transition: ease-in-out 1.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.fotoSlider{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    left: 25%;
+   
+}
+.toggle-button {
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.pPp{
+    text-align: center;
+    font-size: 2.5vh;
+}
+.ph{
+    text-align: center;
+    font-size: 2.5vh;
+}
+.header_self-order
+{
+    margin-bottom: 7%;
+}
+.h2Content
+{
+    font-size: 4.5vh;
+}
+.unikatoweHeader
+{
+    font-size: 3vh;
+}
+.mainContent
+{
+    font-size: 2.5vh;
+}
+.wImages
+{
+    width: 60%;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.wImages4
+{
+    width: 30%;
+    border-radius: 20px;
+    margin: 1.5%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.wImages4:hover
+{
+    transform: scale(1.1);
+}
+.wImages2
+{
+    width: 73%;
+    border-radius: 20px;
+    margin-left: 5%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.wImages24
+{
+    width: 30%;
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 5%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.wImages23
+{
+    width: 70%;
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 5%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.wImages233
+{
+    margin-top: 15%;
+}
+.wImages23:hover
+{
+    transform: scale(1.1);
+}
+.wImages3
+{
+    margin-top: 5%;
+}
+.x
+{
+    margin-left: 3%;
+}
+.text
+{
+    width: 50%;
+    height: 8vh;
+    border-radius: 20px;
+    background-color: white !important;
+    color:#0047aa;
+    border: solid 1px #0047aa;
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 2%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.photoFile
+{
+    width: 50%;
+    text-align: center !important;
+    background-color: white !important;
+    color:#0047aa;
+    border: solid 1px #0047aa;
+    font-size: 3vh;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.text::placeholder{
+    color: #0047aa;
+    font-size: 3vh;
+}
+.text:hover{
+    scale: 1.1;
+}
+.photoFile:hover{
+    scale: 1.1;
+}
+.titleKategoriaLink
+{
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: 400;
+    display: block;
+    padding: 0.5%;
+    background-color: rgb(255, 255, 255);
+    color: #0056d2 !important;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    width: 90%;
+    border: 1px solid gray;
+    
+}
+.titleKategoriaLink:hover::before
+{
+    content: "Zaprojektuj Drzewko";
+    position: absolute;
+    margin-left: -7%;
+    background-color:#0056d2 ;
+    color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.titleKategoriaLink2
+{
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: 400;
+    display: block;
+    padding: 0.5%;
+    background-color: rgb(255, 255, 255);
+    color: #0056d2 !important;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    width: 90%;
+    border: 1px solid gray;
+}
+.titleKategoriaLink2:hover::before
+{
+    content: "Zaprojektuj Palmę";
+    position: absolute;
+    margin-left: -2%;
+    background-color:#0056d2 ;
+    color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.titleKategoriaLink:hover
+{
+    transform: scale(1.1);
+    background-color:#0056d2 ;
+    color: white;
+    cursor: pointer;
+}
+.titleKategoriaLink2:hover
+{
+    transform: scale(1.1);
+    background-color:#0056d2 ;
+    color: white;
+    cursor: pointer;
+}
+.titleKategoriaLink3
+{
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: 400;
+    display: block;
+    padding: 0.5%;
+    background-color: rgb(255, 255, 255);
+    color: #0056d2 !important;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    width: 90%;
+    border: 1px solid gray;
+}
+.titleKategoriaLink3:hover::before
+{
+    content: "Zaprojektuj Obraz";
+    position: absolute;
+    background-color:#0056d2 ;
+    margin-left: -15%;
+    color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.titleKategoriaLink3:hover
+{
+    transform: scale(1.1);
+    background-color:#0056d2 ;
+    color: white;
+    cursor: pointer;
+}
+
+.titleKategoriaLink4
+{
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: 400;
+    display: block;
+    padding: 0.5%;
+    background-color: rgb(255, 255, 255);
+    color: #0056d2 !important;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    width: 90%;
+    border: 1px solid gray;
+}
+.titleKategoriaLink4:hover::before
+{
+    content: "Zaprojektuj Drzewko";
+    position: absolute;
+    font-weight: 600;
+    margin-left: -2%;
+    background-color:#0056d2 ;
+    color: white !important;
+    text-decoration: none;
+}
+
+
+.titleKategoriaLink4:hover
+{
+    transform: scale(1.1);
+    background-color:#0056d2 ;
+    color: white;
+    cursor: pointer;
+}
+
+
+.wImages:hover
+{
+    transform: scale(1.1);
+}
+.wImages2:hover
+{
+    transform: scale(1.1);
+}
+
+
+.spanTitles
+{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 0.5%;
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.3%;
+    margin-left: 1.5%;
+}
+#hawajskiePalmy_k1
+{
+    float: left;
+}
+.imgAll
+{
+    width: 50%;
+    border-radius: 20px;
+}
+#customSizeInput {
+    display: none;
+}
+#customSizeInput2 {
+    display: none;
+}
+#customSizeInput3 {
+    display: none;
+}
+.paragrafyP
+{
+    color: black;
+}
+.none
+{
+    display: none;
+   
+}
+.listy
+{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0.3%;
+    font-size: 2.5vh;
+}
+.marginesGora
+{
+    margin-top: 4%;
+    margin-bottom: -4%;
+}
+.marginesGora2
+{
+    margin-top: 7%;
+    margin-bottom: -4%;
+    color: black !important;
+}
+.marg
+{
+    margin-left: 7.5%;
+}
+.clear
+{
+   width: 80%;
+   font-size: 3vh;
+   text-align: center;
+   border-radius: 20px;
+   
+}
+.odstepMiedzyInput
+{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.sizeLabel
+{
+    float: left;
+}
+.nextInputK
+{
+    width: 50%;
+    border-radius: 20px;
+    padding: 0.3%;
+    margin-top: 7%;
+    background-color: #0047aa;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    padding: 0.4%;
+    font-size: 3vh;
+    transition: ease-in-out 0.3s;
+}
+.nextInputK:hover
+{
+    transform: scale(1.1);
+}
+.odstepInputs
+{  
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.pPhoto
+{
+    color: black;
+    font-size: 2vh;
+}
+.allStrzalka
+{
+    border-radius: 20px;
+}
+.allStrzalka:hover
+{
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+.inline
+{
+    display: inline;
+}
+
+.h2All
+{
+    color: black !important;
+    font-size: 4vh;
+}
+.firstLeft
+{
+    transform: rotate(-180deg);
+}
+.kolorMain {
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: 500;
+    margin-top: 1%;
+    transition: 0.3s ease-in-out;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    color: #0056d2;
+    
+}
+.kolorMain p{
+    font-size: 4vh;
+    font-weight: 500;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    font-size: 2.5vh;
+    color: white;
+    border-radius: 20px;
+}
+.inputPodsumowanie
+{
+    width: 50%;
+    border-radius: 20px;
+    border-radius: solid 1px white;
+    color: #000000;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 1%;
+}
+
+.containerPodsumowanie
+{
+    margin-top: 2%;
+}
+
+.wyniki
+{
+    width: 60%;
+    height: 90vh;
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 3%;
+}
+.podsumowanieZamowienia{
+    position: fixed;
+    width: 100%;
+    padding-bottom: 8%;
+    top: 0%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.podsumowanieH1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3.5vh;
+    width: 90%;
+    float: left;
+}
+.classNoVisibility{
+    display: none;
+}
+.ix{
+    margin-top: 0.5%;
+    margin-left: 3%;
+    width: 5%;
+    height: auto;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    transition: ease-in-out 0.3s;
+    margin-bottom: 0.5%;
+}
+.ix:hover{
+    scale: 1.1;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.InputPodsumowaieSubmit2
+{
+    width: 30%;
+    font-size: 2.5vh;
+    background-color: rgb(108, 108, 108);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: ease-in-out 0.3s;
+}
+.InputPodsumowaieSubmit2:hover{
+    scale: 1.1;
+}
+.InputPodsumowaieSubmit
+{
+    transition: ease-in-out 0.3s;
+    margin-left: 5%;
+    width: 50%;
+    font-size: 2.5vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(35, 46, 253);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5%;
+    float: left;
+}
+.InputPodsumowaieSubmit:hover{
+    scale: 1.1;
+}
+.pPodsumowanie{
+    text-align: left;
+    margin-left: 2%;
+    font-size: 2.5vh;
+}
+.toggle-button {
+    cursor: pointer;
+    font-size: 5.5vh;
+    padding-bottom: 0.5%;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 22%;
+    padding-right: 22%;
+    background-color: #0056d2;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.step {
+    cursor: pointer;
+    font-size: 3vh;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0056d2;
+    height: auto;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+
+.step:hover {
+    background-color: #0047aa;
+}
+
+.mobileNavigationSlider{
+    display: none;
+}
+
+
+.ods
+   {
+    margin-top: 3%;
+    margin-bottom: 3%;
+   }
+
+
+
+   @media (max-width:1600px) {
+    .imgSliderMain{
+        width: 75%;
+       
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .fotoSlider{
+        width: 65%;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        left: 17.5%;
+       
+    }
+
+   }
+
+   
+   @media (max-width:1200px) {
+    .imgSliderMain{
+        width: 80%;
+       
+        height: auto;
+        border-radius: 20px;
+    }
+    .wyniki
+    {
+        width: 80%;
+        height: 90vh;
+        margin-left: 10%;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 3%;
+    }
+    .fotoSlider{
+        width: 75%;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        left: 12.5%;
+       
+    }
+
+   }
+
+@media (max-width:1100px) {
+    .imgSliderMain{
+        width: 80%;
+       
+        height: auto;
+        border-radius: 20px;
+    }
+    .fotoSlider{
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 1%;
+        left: 10%;
+       
+    }
+
+   }
+   @media (max-width:1000px) {
+    .imgSliderMain{
+        width: 82%;
+       
+        height: auto;
+        border-radius: 20px;
+    }
+    .fotoSlider{
+        width: 82%;
+        height: 100vh;
+        position: fixed;
+        top: 2%;
+        left: 8%;
+       
+    }
+
+   }
+
+   @media (max-width:900px) {
+    .wyniki
+    {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0%;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 3%;
+    }
+    .clear
+        {
+            width: 100%;
+            font-size: 3vh;
+            text-align: center;
+            border-radius: 20px;
+        
+        }
+    .h2All{
+        font-size: 3vh;
+    }
+    .odstepInputs
+    {  
+        margin-top: 20%;
+        margin-bottom: 1%;
+    }
+    .imgSliderMain{
+        width: 80%;
+       
+        height: auto;
+        border-radius: 20px;
+    }
+    .photoFile
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .text{
+        width: 100%;
+       
+    }
+    .inputPodsumowanie{
+        width: 100%;
+    }
+    .fotoSlider{
+        width: 82%;
+        height: 100vh;
+        position: fixed;
+        top: 4%;
+        left: 8%;
+       
+    }
+    .nextInputK
+    {
+        width: 100%;
+        border-radius: 50px;
+        padding: 0.3%;
+        margin-top: 15%;
+        background-color: #0047aa;
+        color: white;
+        position: absolute;
+        bottom: 10%;
+        left: 0%;
+        padding: 0.4%;
+        font-size: 3vh;
+        transition: ease-in-out 0.3s;
+    }
+    .InputPodsumowaieSubmit {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .InputPodsumowaieSubmit2 {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+   }
+   @media (max-width:700px) {
+    .imgSliderMain{
+        width: 100%;
+        
+        height: auto;
+        border-radius: 20px;
+    }
+    .fotoSlider{
+        width: 80%;
+        height: 100vh;
+        left: 0%;
+        top: 6%;
+       
+    }
+    .strzalkaSlider{
+        display: none;
+    }
+    .strzalkaSlider2{
+        display: none;
+    }
+    .input3{
+        display: none;
+    }
+    .mobileNavigationSlider{
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+        padding: 2%;
+        background-color: rgb(211, 211, 211);
+        z-index: 20000;
+
+    }
+    .strzalkaSliderMobile{
+        rotate: -180deg;
+        position: fixed;
+        left: 2%;
+        bottom: 2%;
+        z-index: 30000;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+    .strzalkaSlider2Mobile{
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        z-index: 30000;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+    .input4{
+        margin-left: 20%;
+        border-radius: 10px;
+        border: solid 1px black;
+        width: 60%;
+        padding: -2%;
+        text-align: center;
+        font-size: 6vh;
+        color: white;
+        background-color: red;
+    }
+
+   }
+
+   @media (max-width:600px) {
+    .fotoSlider{
+        width: 90%;
+        height: 100vh;
+        left: -6%;
+        top: 8%;
+       
+    }
+    .mobileNavigationSlider{
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+        padding: 1%;
+        background-color: rgb(211, 211, 211);
+        z-index: 20000;
+
+    }
+    .strzalkaSliderMobile{
+        rotate: -180deg;
+        position: fixed;
+        left: 2%;
+        bottom: 1%;
+        z-index: 30000;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+    .strzalkaSlider2Mobile{
+        position: fixed;
+        right: 2%;
+        bottom: 1%;
+        z-index: 30000;
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+    .input4{
+        margin-left: 20%;
+        border-radius: 10px;
+        border: solid 1px black;
+        width: 60%;
+        padding: -2%;
+        text-align: center;
+        font-size: 6vh;
+        color: white;
+        background-color: red;
+    }
+
+   }
+
+   @media (max-width:600px) {
+    .fotoSlider{
+        width: 90%;
+        height: 100vh;
+        left: -6%;
+        top: 16%;
+       
+    }
+
+   }
+
+   
+   
+
+   
+
+
+
+
+
+@media (max-width:900px) {
+    .help
+    {
+        margin-top: 17%;
+    }
+    .col-lg-3
+    {
+        display: block !important;
+    }
+    .toggle-button {
+        cursor: pointer;
+        font-size: 4vh;
+        
+    }
+    .spanTitles
+    {
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 0.5%;
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 0.3%;
+        width: 45%;
+        font-size: 3vh;
+    }
+   .ods
+   {
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+   .content
+   {
+    width: 100%;
+   }
+}

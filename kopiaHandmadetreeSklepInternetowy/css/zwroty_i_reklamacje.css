@@ -1,0 +1,71 @@
+body
+{
+    font-family: 'Jost', sans-serif;
+}
+.odstep
+{
+    margin-bottom: -10%;
+}
+
+.odstep10
+{
+    margin-bottom: 10%;
+}
+.h
+{
+    margin-top: -4%;
+    text-align: center;  
+}
+.p
+{
+    text-align: justify;
+    font-size: 120%;
+}
+
+.h
+{
+    margin-top: -4%;
+    text-align: center;  
+}
+.p
+{
+    text-align: justify;
+    font-size: 120%;
+}
+.odstep100
+{
+    margin-top: 17%;
+}
+@media (max-width: 1300px) {
+    .odstep
+    {
+        margin-top: 25%;
+    }
+    .odstep10
+    {
+        margin-bottom: 20%;
+    }
+}
+@media (min-width: 1301px) {
+    .odstep
+    {
+        margin-top: 18%;
+    }
+   
+}
+@media (max-width: 950px) {
+    .odstep
+    {
+        margin-top: 58%;
+    }
+    .odstep100
+    {
+        margin-top: 12vh;
+    }
+    .Zwroty
+    {
+        margin-top: 20%;
+    }
+}
+
+

@@ -1,0 +1,347 @@
+body
+{
+  font-family: 'Jost', sans-serif;
+}
+.x
+{
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 20px 20px 20px rgba(4, 23, 4, 0.2); /* Brak przesunięcia, 4px przesunięcie w pionie, 8px rozmycie, półprzezroczysty czarny kolor */
+    margin-bottom:10% ;
+}
+p
+{
+    text-align: left;
+
+    font-size: 2.5vh;
+   
+    margin-top: 2%;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+}
+.h2srodek
+{
+  text-align: center;
+}
+h2
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 5vh;
+}
+.h
+{
+    margin-top: -120px;
+}
+.h2
+{
+    margin-top: 3%;
+}
+.h3
+{
+    margin-top: 2%;
+}
+.h4
+{
+    margin-top: 4%;
+    width: 100%;
+}
+.h5
+{
+  display: none;
+  margin-left:3%;
+}
+.xx
+{
+    transition: transform 0.3s ease;
+    
+}
+.xx:hover
+{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+.modal-dialog {
+  max-width: 100%;
+  
+  margin: 0 auto;
+}
+.modal-content {
+  background-color: transparent;
+  overflow: auto;
+  position: absolute;
+  
+}
+
+
+.modal-body img {
+  max-height: 95.7vh;
+  min-width: 100%;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 4%;
+  
+}
+.nav-btn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.5em;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  
+  z-index: 1051; /* Above modal overlay */
+}
+#prev 
+{ 
+  left: 1%;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+#next 
+{ 
+  right: 1%;
+  background-color: transparent;
+  transition:  0.3s ease-in-out;    
+}
+#close-btn {
+  position: absolute;
+  top: 9%;
+  z-index: 10000;
+  right: 3%;
+  font-size: 8vh;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  transition:  0.3s ease-in-out;  
+  width: 6%;  
+  border-radius: 20px;
+  padding-bottom: 0.5%;
+}
+ #close-btn:hover
+ {
+  background-color: rgb(201, 201, 201);
+}
+ #prev:hover
+{
+  background-color: aliceblue;
+}
+#next:hover
+{
+  background-color: aliceblue;
+}
+  .xxx
+  {
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+  }
+  .xxx:hover
+  {
+    margin-top: 20px;
+    cursor: pointer;
+    transform: scale(1.05); 
+  }
+  .h6
+  {
+   margin-right: 6%;
+  }
+  .mWarszataty
+  {
+    margin-top: 9%;
+    margin-bottom: -5%;
+  }
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 100%;
+    }
+
+  }
+  @media (max-width: 991px) {
+    h2
+    {
+      font-size: 4vh;
+      white-space: nowrap;
+    }
+    #close-btn {
+      position: absolute;
+      top: 9%;
+      z-index: 10000;
+      right: 3%;
+      font-size: 8vh;
+      color: rgb(0, 0, 0);
+      opacity: 1;
+      transition:  0.3s ease-in-out;  
+      width: 6%;  
+      background-color: aliceblue;
+      border-radius: 20px;
+    }
+    #prev
+    {
+      background-color: aliceblue;
+    }
+    #next
+    {
+      background-color: aliceblue;
+    }
+  }
+  @media (max-width: 991.98px) {
+            .h
+            {
+                margin-top: 150px;
+                
+            }
+            .mWarszataty
+              {
+                margin-top: 20%;
+              }
+            .xx
+            {
+              margin: 2%;
+              width: 80%;
+              margin-left: 10%;
+            }
+            .h4
+            {
+              margin-top: 4%;
+              width: 100%;
+            }
+            p
+            {
+                margin-left: 1%;
+            }
+            h2
+            {
+                margin-left: 0px;
+            }
+            .z
+            {
+              margin-top: 30%;
+            }
+            .h5
+            {
+              display:block;
+            }
+            #close-btn {
+              position: absolute;
+              top: 9%;
+              z-index: 10000;
+              right: 4%;
+           }
+           .mmo
+           {
+            margin-top: 18%;
+           }
+           .ccv
+           {
+            margin-top: 5%;
+           }
+           .baner_mob
+           {
+            margin-bottom: 2%;
+           }
+          
+  }
+  @media (max-width: 992px) {
+    .h4
+    {
+      display:none;
+    }
+}
+@media (max-width: 590px)
+{
+  .strzalka2
+    {
+        width: 5.5vh;
+      
+        border-radius: 10px;
+        
+    }
+    .strzalka3
+    {
+        
+        width: 5.5vh;
+        border-radius: 10px;
+    }
+  #prev 
+  { 
+    left: 1%;
+    margin-left: 4%;
+    background-color: transparent;
+  }
+  #next
+  { 
+    right: 1%;
+    margin-right: 4%;
+    background-color: transparent;
+  }
+
+  
+  #close-btn {
+    position: fixed;
+    display: block;
+    top: 90%;
+    width: 40%;
+    height: 7vh;
+    right: 30%;
+   
+    font-size: 7vh;
+    color: rgb(0, 0, 0); 
+    border-radius: 10px;
+    background-color: transparent;
+    padding-bottom: 8vh;
+    z-index: 100;
+  }
+  
+    .nav-btn {
+    position: fixed;
+    top: 94%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    z-index: 1051; /* Above modal overlay */
+    
+  }
+ .tllo
+ {
+  position: fixed;
+  top: 89.5%;
+  left: 0%;
+  border-radius: 20px;
+  background-color: rgb(209, 221, 221);
+  z-index: 10000;
+  width: 100%;
+  height: 9vh;
+ }
+  #prev:hover
+{
+  background-color: transparent;
+  border: none;
+}
+#next:hover
+{
+  background-color: transparent;
+  border: none;
+}
+
+}
+@media (max-width: 991.98px) 
+{
+   
+    .strzalka2
+    {
+        width: 45px;
+        
+        
+    }
+    .strzalka3
+    {
+        
+        width: 45px;
+       
+    }
+}
